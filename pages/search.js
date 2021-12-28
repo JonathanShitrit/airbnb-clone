@@ -32,7 +32,7 @@ export default function Search({ searchResults }) {
             <p className="button">More filters</p>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col mb-6">
             {searchResults.map(
               (
                 {
